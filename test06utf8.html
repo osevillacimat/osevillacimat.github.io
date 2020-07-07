@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html><head>
+
+<!--
+     Este es un modelo para texto directo en html
+     para escribir directamente reporte aquí
+     Es un modelo DELGADO para cargar mathjax
+     en linea, no local.
+-->
+
+<meta charset="UTF-8">
+
+<!-- para cargar mathjax en linea -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+
+<!-- para el estilo de texto parece -->
+<style type='text/css'>html,body{padding:4px 8px 4px 8px;font-family:'customfont';}h1,h2,h3,h4,h5,h6{font-family:'sans-serif-condensed';}a{color: #388E3C;text-decoration:underline;}img{height:auto;width:325px;margin:auto;}html,body{color:#ffffff;background-color:#303030;}a:visited{color:#dddddd;}blockquote{color:#cccccc;}</style>
+
+<!-- prism para syntax highlighting -->
+<script type='text/javascript' src='file:///android_asset/prism/prism-latex.min.js'></script> 
+
+<!-- supuestamente para definir algo del texto -->
+<style> 
+html,body { 
+ /*font-family: sans-serif-condensed;*/ 
+ /*font-size: 80%;*/ 
+ /*este es un comentario de js*/ 
+} 
+</style> 
+ 
+<!-- parece que solo es para la fuente específica -->
+<style type='text/css'>@font-face { font-family: customfont; src: url('file:///android_asset/fonts/Liberation Mono (Courier New).ttf'); }</style>
+
+</head>
+
+<!-- se quitaron los on page load y eso -->
+
+<!-- se quitó del body lo siguiente
+    class='format-markdown fileext-md' 
+-->
+
+<body>
+
+<!-- USER DOCUMENT CONTENT -->
+
+<!-- definiciones útiles en mathjax -->
+$ \def \RR {\mathbb{R}} $
+$ \def \Sing {\text{Sing}} $
+$ \def \haa {h^{11}}$
+$ \def \hab {h^{12}}$</p>
+
+<h1 id="reporte-20200703"><a href="#reporte-20200703" id="reporte-20200703" class="header_no_underline">Reporte 20200703</a></h1>
+
+<p>En el presente reporte expongo algunos detalles</p>
+
+<h2 id="ss1-sobre-la-característica-de-euler"><a href="#ss1-sobre-la-característica-de-euler" id="ss1-sobre-la-característica-de-euler" class="header_no_underline">ss1 Sobre la característica de Euler</a></h2>
+
+<p>Según tendo entendido, la característica de una fibración E con fibra genérica $F$ , fibra t dada por $ F_t $ con espacio base B y conjunto de fibras singulares Sing tiene por fórmula</p>
+
+<!-- el div para un display -->
+<div>
+$$ e(E)=e(F)e(B) + \sum_{t \in \Sing}{ (e(F_t) - e(F)) }$$
+</div>
+
+
+<p>$\Bbb{P}^2$</p>
+
+
+<!-- USER DOCUMENT CONTENT END -->
+
+</body></html>
